@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"textlcd2x16_example\startup_stm32f051x8.o"
+"textlcd2x16_example\mylcd.o"
+"textlcd2x16_example\ds1307_control.o"
+"textlcd2x16_example\i2c_sw.o"
+"textlcd2x16_example\main.o"
+"textlcd2x16_example\stm32f0xx_it.o"
+"textlcd2x16_example\stm32f0xx_hal_msp.o"
+"textlcd2x16_example\stm32f0xx_hal_tim.o"
+"textlcd2x16_example\stm32f0xx_hal_tim_ex.o"
+"textlcd2x16_example\stm32f0xx_hal_rcc.o"
+"textlcd2x16_example\stm32f0xx_hal_rcc_ex.o"
+"textlcd2x16_example\stm32f0xx_hal.o"
+"textlcd2x16_example\stm32f0xx_hal_i2c.o"
+"textlcd2x16_example\stm32f0xx_hal_i2c_ex.o"
+"textlcd2x16_example\stm32f0xx_hal_gpio.o"
+"textlcd2x16_example\stm32f0xx_hal_dma.o"
+"textlcd2x16_example\stm32f0xx_hal_cortex.o"
+"textlcd2x16_example\stm32f0xx_hal_pwr.o"
+"textlcd2x16_example\stm32f0xx_hal_pwr_ex.o"
+"textlcd2x16_example\stm32f0xx_hal_flash.o"
+"textlcd2x16_example\stm32f0xx_hal_flash_ex.o"
+"textlcd2x16_example\stm32f0xx_hal_exti.o"
+"textlcd2x16_example\system_stm32f0xx.o"
+--strict --scatter "TextLCD2x16_Example\TextLCD2x16_Example.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TextLCD2x16_Example.map" -o TextLCD2x16_Example\TextLCD2x16_Example.axf

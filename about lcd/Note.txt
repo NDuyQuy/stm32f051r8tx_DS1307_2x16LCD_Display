@@ -1,0 +1,3 @@
+The schematic and the lcd instruction is what i got from other website and its not my schematic
+i too lazy to draw a schematic for my self but except the connection i already describle on readme other thing i just do the same as this. Good luck!
+Also this is the website if you need some other help http://www.hocavr.com/2018/06/text-lcd.html
